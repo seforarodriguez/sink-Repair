@@ -9,7 +9,14 @@
       "name": "Merle"
     }
   ],
-  "completions": [],
+  "completions": [
+    {
+      "requestId": "1",
+      "plumberId": "2",
+      "date_Created": 4550.400000035763,
+      "id": 1
+    }
+  ],
   "requests": [
     {
       "id": 1,
@@ -24,6 +31,13 @@
       "budget": "33",
       "neededBy": "2022-01-01",
       "id": 6
+    },
+    {
+      "description": "leaky bathroom",
+      "address": "66 st.",
+      "budget": "500",
+      "neededBy": "2022-12-31",
+      "id": 7
     }
   ]
 }

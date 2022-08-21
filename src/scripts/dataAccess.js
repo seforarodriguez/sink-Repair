@@ -69,7 +69,7 @@ export const saveCompletion = (requestCompleted) => {
         body: JSON.stringify(requestCompleted)
     }
 
-    return fetch(`${API}/compleations`, fetchOptions)
+    return fetch(`${API}/completions`, fetchOptions)
     .then(response => response.json())
     .then(() => {
         mainContainer.dispatchEvent(new CustomEvent("stateChanged"))

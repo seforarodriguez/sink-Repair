@@ -1,5 +1,14 @@
 {
-  "plumbers": [],
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
   "completions": [],
   "requests": [
     {
@@ -10,60 +19,11 @@
       "neededBy": "2021-08-27"
     },
     {
-      "description": "baño roto",
-      "address": "222 ave",
-      "budget": "300",
-      "neededBy": "2022-12-30",
-      "id": 2
-    },
-    {
-      "description": "ruined bathroom",
-      "address": "11 st",
-      "budget": "555",
-      "neededBy": "2022-08-31",
-      "id": 3
-    },
-    {
-      "description": "hala",
-      "address": "11 st",
-      "budget": "774",
-      "neededBy": "2022-03-01",
-      "id": 4
-    },
-    {
-      "description": "ruined batthroom",
-      "address": "55 st",
-      "budget": "129",
-      "neededBy": "2022-01-01",
-      "id": 5
-    },
-    {
       "description": "bathroom super ruined",
       "address": "44 st",
       "budget": "33",
       "neededBy": "2022-01-01",
       "id": 6
-    },
-    {
-      "description": "blabla poop",
-      "address": "66 road",
-      "budget": "4000",
-      "neededBy": "2022-03-03",
-      "id": 7
-    },
-    {
-      "description": "blabla poop",
-      "address": "66 road",
-      "budget": "4000",
-      "neededBy": "2022-03-03",
-      "id": 8
-    },
-    {
-      "description": "no. 2 all over",
-      "address": "poop road",
-      "budget": "5000",
-      "neededBy": "2022-12-31",
-      "id": 9
     }
   ]
 }

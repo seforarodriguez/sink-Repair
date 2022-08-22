@@ -11,7 +11,6 @@ const convertRequestToListElement = (eachRequestInArray) => {
             id="request--${eachRequestInArray.id}">
         Delete
     </button>
-    </li>
     <select class="plumbers" id="plumbers">
     <option value="">Choose</option>
     ${
@@ -21,7 +20,8 @@ const convertRequestToListElement = (eachRequestInArray) => {
             }
         ).join("")
     }
-</select>`
+</select>
+</li>`
     return html
 }
 
@@ -29,7 +29,7 @@ const convertRequestToListElement = (eachRequestInArray) => {
 export const Requests = () => {
     const requests = getRequests()
     let html = `
-        <ul>
+        <ul> <li id="topTitles"><div>Description</div> <div>Compleated by</div></li>
             ${
                 requests.map(convertRequestToListElement).join("")
             }

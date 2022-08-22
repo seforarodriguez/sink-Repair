@@ -32,12 +32,12 @@ export const fetchPlumbers = () => {
 //I made this by myself so revise with group or instructor, to confirm what the compleations should be populating.
 //I should be taking into consideration that the compleations should have the requestId and the plumbersId like the 
 //middle ground of two tables?? ask about this.
-export const fetchCompleations = () => {
+export const fetchCompletions = () => {
     return fetch(`${API}/compleations`)
     .then(response => response.json())
     .then(
         (completedrequests) => {
-            applicationState.compleations = completedrequests
+            applicationState.completions = completedrequests
         }
     )
 }
@@ -76,7 +76,7 @@ export const saveCompletion = (requestCompleted) => {
     })
 }
 
-
+//this one is deleting the information from the database
 export const deleteRequest = (id) => {
     return fetch(`${API}/requests/${id}`, { method: "DELETE" })
         .then(
@@ -86,6 +86,8 @@ export const deleteRequest = (id) => {
         )
 }
 
+
+
 export const getRequests = () => {
     return applicationState.requests.map(request => ({...request}))
 }
@@ -94,5 +96,8 @@ export const getPlumbers = () => {
     return applicationState.plumbers.map(plumbers => ({...plumbers}))
 }
 
+export const getCompletions = () => {
+    return applicationState.completions.map(completions => ({...completions}))
+}
 
 

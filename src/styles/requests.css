@@ -1,3 +1,14 @@
+#topTitles {
+  background: rgb(71, 73, 79);
+}
+
+li {
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr;
+  grid-column-gap: 2em;
+  padding: 1em;
+}
+
 .field {
     display:flex;
   flex-direction: column;  
@@ -5,4 +16,18 @@
 
 label {
  font-size: 16px;   
+}
+
+
+.serviceRequests {
+  display: flex;
+  flex-direction: column;
+}
+
+.serviceForm {
+  padding:3em;
+}
+
+#submitRequest {
+  margin-top: 1em;
 }

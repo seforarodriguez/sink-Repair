@@ -9,6 +9,15 @@ li {
   padding: 1em;
 }
 
+.completeRequestBackground {
+  display: grid;
+  background-color: rgba(128, 17, 17, 0.699);
+  border: dotted;  
+  grid-template-columns: 5.2fr 1fr;
+  grid-column-gap: 2em;
+  padding: 1em;
+}
+
 .field {
     display:flex;
   flex-direction: column;  

@@ -10,10 +10,7 @@ const convertRequestToListElement = (eachRequestInArray) => {
     let html =
         `<li>
     ${eachRequestInArray.description}
-    <button class="request__delete"
-            id="request--${eachRequestInArray.id}">
-        Delete
-    </button>
+    
     <select class="plumbers" id="plumbers">
     <option value="">Choose</option>
     ${plumbers.map(
@@ -23,6 +20,10 @@ const convertRequestToListElement = (eachRequestInArray) => {
         ).join("")
         }
 </select>
+<button class="request__delete"
+            id="request--${eachRequestInArray.id}">
+        Delete
+</button>
 </li>`
     return html
 }
@@ -62,7 +63,7 @@ export const Requests = () => {
                 //this is looping through the requests to send it to the convertcompletedREQUEST OBJECT.
                 convertCompletedRequests(request)
                 }
-            </ul>
+
         `
 
             return html

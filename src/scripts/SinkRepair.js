@@ -10,6 +10,7 @@ export const SinkRepair = () => {
 
     <section class="serviceRequests">
         <h2>Service Requests</h2>
+        <ul> <li id="topTitles"><div>Description</div> <div>Compleated by</div></li>
         ${Requests()}
     </section>
     `

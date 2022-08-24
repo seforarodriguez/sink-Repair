@@ -33,7 +33,7 @@ export const fetchPlumbers = () => {
 //I should be taking into consideration that the compleations should have the requestId and the plumbersId like the 
 //middle ground of two tables?? ask about this.
 export const fetchCompletions = () => {
-    return fetch(`${API}/compleations`)
+    return fetch(`${API}/completions`)
     .then(response => response.json())
     .then(
         (completedrequests) => {

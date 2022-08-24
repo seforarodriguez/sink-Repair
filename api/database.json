@@ -9,21 +9,54 @@
       "name": "Merle"
     }
   ],
-  "completions": [],
-  "requests": [
+  "completions": [
     {
-      "description": "bathroom super ruined",
-      "address": "44 st",
-      "budget": "33",
-      "neededBy": "2022-01-01",
-      "id": 6
+      "requestId": 9,
+      "plumberId": 1,
+      "date_Created": 1661286339868,
+      "id": 3
     },
     {
-      "description": "leaky bathroom",
-      "address": "66 st.",
+      "requestId": 10,
+      "plumberId": 2,
+      "date_Created": 1661365503109,
+      "id": 4
+    },
+    {
+      "requestId": 11,
+      "plumberId": 2,
+      "date_Created": 1661365598980,
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "description": "bathroom pooped",
+      "address": "44 st",
+      "budget": "400",
+      "neededBy": "2022-12-31",
+      "id": 8
+    },
+    {
+      "description": "dishwasher stuck",
+      "address": "33 st",
       "budget": "500",
       "neededBy": "2022-12-31",
-      "id": 7
+      "id": 9
+    },
+    {
+      "description": "bathroom really messed up",
+      "address": "44 st",
+      "budget": "500",
+      "neededBy": "2022-12-31",
+      "id": 10
+    },
+    {
+      "description": "sink clogged",
+      "address": "33st",
+      "budget": "500",
+      "neededBy": "2022-01-01",
+      "id": 11
     }
   ]
 }
